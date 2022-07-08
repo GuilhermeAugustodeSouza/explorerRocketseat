@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-image: linear-gradient(to left,rgb(226, 222, 222),rgb(29, 28, 28));
+}
+.container{
+ 
+  text-align: center;
+  width: 300px;
+  margin: 60px auto;
+}
+img{
+    width: 100%;
+}
+p{
+    font-family: 'Grenze Gotisch', cursive;
+    
+}
+
+.avatar{
+width: 100px;
+height: 100px;
+border-radius: 50%;
+border:  solid gray 4px ;
+padding: 3.7px;
+}
+.avatar:hover{
+   border:  solid greenyellow;
+}
+
+h1{
+margin-top: 24px;
+margin-bottom: 8px;
+
+}
+
+.face{
+width: 5%;
+margin: 0 5px;
+}
+
+.insta{
+    width: 6%;
+    margin: 0 5px;
+}
+
+.git{
+    width: 5%;
+    margin: 0 5px;
+}
+
+.linkedin{
+   width: 6%;
+   margin: 0 5px;
+}
+
+ul{
+        list-style: none;
+        margin: 48px 0;
+}
+ul li a{
+    display: flex;
+    height: 53px;
+    justify-content: center;
+    align-items: center;
+    background: green;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    transition: background 400ms;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-decoration: none;
+    
+}
+ul li a:hover{
+    background: greenyellow;
+    font-family: 'Grenze Gotisch', cursive;
+    color: #000000;
+}
+ul li a:active{
+    font-size: 30px;
+    color: #000000;
+}
+footer{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+footer a:hover{
+    text-transform: uppercase;
+    font-family: 'Grenze Gotisch', cursive;
+    color: blueviolet;
+    font-size: 18px;
+
+}
+
