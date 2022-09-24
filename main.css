@@ -4,28 +4,41 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+
 body{
    background-image: url(./imgs/ducati.jpg);
    background-repeat: no-repeat;
-   
    background-size: cover;
    width: 100%;
    height: auto;
 
 }
 .botao{
-    margin: 10px 10px;
+    display: flex;
+    margin-left: -1px;
     padding: 2px 5px;
     background-color: greenyellow;
+    width: 271px;
+    height: 53px;
+    justify-content: center;
+    align-items: center;
+    background: green;
     border-radius: 5px;
-    color: black;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    box-shadow: 5px  3px 5px;
+    transition: background 400ms;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-decoration: none;
+    border: none;
+    
     
 }
 .botao:hover{
-    font-size: large;
-    opacity: 0.4;
+    background: greenyellow ;
+    font-family: 'Grenze Gotisch', cursive;
+    opacity: 0.3;
+    transition: 0.5s;
+    cursor: pointer;
     
 }
 .container{
@@ -120,6 +133,7 @@ ul li a:active{
 }
 footer{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gray;
 }
 footer a:hover{
     text-transform: uppercase;
@@ -128,5 +142,6 @@ footer a:hover{
     font-size: 18px;
 
 }
+
 
 
