@@ -6,45 +6,17 @@
 }
 
 body{
-   background-image: url(./imgs/ducati.jpg);
+   background-image: url(./imgs/samurayPiinterest.jpg);
    background-repeat: no-repeat;
    background-size: cover;
    width: 100%;
    height: auto;
 
 }
-.botao{
-    display: flex;
-    margin-left: -1px;
-    padding: 2px 5px;
-    background-color: greenyellow;
-    width: 271px;
-    height: 53px;
-    justify-content: center;
-    align-items: center;
-    background: green;
-    border-radius: 5px;
-    transition: background 400ms;
-    color: white;
-    text-transform: uppercase;
-    font-size: 14px;
-    text-decoration: none;
-    border: none;
-    
-    
-}
-.botao:hover{
-    background: greenyellow ;
-    font-family: 'Grenze Gotisch', cursive;
-    opacity: 0.3;
-    transition: 0.5s;
-    cursor: pointer;
-    
-}
 .container{
 
     background-color: transparent;
-    backdrop-filter: blur(4px);
+    backdrop-filter: blur(4.6px);
     border-radius: 5px;
     padding: 8px 15px;
   text-align: center;
@@ -58,6 +30,17 @@ p{
     font-family: 'Grenze Gotisch', cursive;
     
 }
+h1:hover{
+    font-family: 'Grenze Gotisch', cursive;
+    color: red;
+    transition: 2.5s;
+    text-transform: uppercase; 
+}
+p:hover{
+    color: red;
+    transition: 2.5s;
+    text-transform: uppercase; 
+}
 
 .avatar{
 width: 100px;
@@ -67,7 +50,8 @@ border:  solid gray 4px ;
 padding: 3.7px;
 }
 .avatar:hover{
-   border:  solid greenyellow;
+   border:  solid rgba(233, 6, 6, 0.952);
+   transition: 2.5s;
 }
 
 h1{
@@ -113,7 +97,7 @@ ul li a{
     border-radius: 5px;
     margin-bottom: 16px;
     transition: background 400ms;
-    color: white;
+    color: rgb(240, 4, 4);
     text-transform: uppercase;
     font-size: 14px;
     text-decoration: none;
@@ -124,16 +108,51 @@ ul li a:hover{
     background: greenyellow ;
     font-family: 'Grenze Gotisch', cursive;
     color: #000000;
-    opacity: 0.3;
-    transition: 0.5s;
+    opacity: 0.9;
+    transition: 2.5s;
 }
 ul li a:active{
     font-size: 30px;
     color: #000000;
 }
+
+.botao{
+    display: flex;
+    margin-left: -1px;
+    padding: 2px 5px;
+    background-color: greenyellow;
+    width: 271px;
+    height: 53px;
+    justify-content: center;
+    align-items: center;
+    background: green;
+    border-radius: 5px;
+    transition: background 400ms;
+    color: rgb(245, 8, 8);
+    text-transform: uppercase;
+    font-size: 14px;
+    text-decoration: none;
+    border: none;
+    
+    
+}
+.botao:hover{
+    font-family:'Grenze Gotisch', cursive;
+    background: greenyellow ;
+    opacity: 0.9;
+    transition: 2.5s;
+    cursor: pointer;
+    
+}
+.botao:active{
+    font-size: 30px;
+    color: #000000;
+    font-family:'Grenze Gotisch', cursive;
+}
+
 footer{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: gray;
+    color: rgb(73, 72, 72);
 }
 footer a:hover{
     text-transform: uppercase;
@@ -142,6 +161,3 @@ footer a:hover{
     font-size: 18px;
 
 }
-
-
-
