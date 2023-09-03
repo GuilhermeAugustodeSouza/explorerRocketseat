@@ -16,12 +16,12 @@ body{
 .container{
 
     background-color: transparent;
-    backdrop-filter: blur(4.6px);
+    backdrop-filter: blur(3.6px);
     border-radius: 5px;
     padding: 8px 15px;
   text-align: center;
   width: 300px;
-  margin: 60px auto;
+  margin: 10px auto;
 }
 img{
     width: 100%;
@@ -93,11 +93,11 @@ ul li a{
     height: 53px;
     justify-content: center;
     align-items: center;
-    background: green;
+    background:linear-gradient(red,black) ;
     border-radius: 5px;
     margin-bottom: 16px;
     transition: background 400ms;
-    color: rgb(240, 4, 4);
+    color:grey;
     text-transform: uppercase;
     font-size: 14px;
     text-decoration: none;
@@ -120,15 +120,14 @@ ul li a:active{
     display: flex;
     margin-left: -1px;
     padding: 2px 5px;
-    background-color: greenyellow;
+    background: linear-gradient(red,black);
     width: 271px;
     height: 53px;
     justify-content: center;
     align-items: center;
-    background: green;
     border-radius: 5px;
     transition: background 400ms;
-    color: rgb(245, 8, 8);
+    color: grey;
     text-transform: uppercase;
     font-size: 14px;
     text-decoration: none;
