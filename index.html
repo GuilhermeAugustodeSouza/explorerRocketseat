@@ -23,8 +23,8 @@
     <li><a href="https://www.instagram.com/guilhermeaugusto_souza31/" target="_blank"><img class="insta" src="./imgs/instagram.png" alt="logo-tipo instagram">Instagram</a></li>
     <li><a href="https://m.facebook.com/profile.php?ref=wizard" target="_blank"> <img class="face" src="./imgs/facebook.png" alt="logo-tipo facebook"> Facebook</a></li>
     <li><a href="https://github.com/GuilhermeAugustodeSouza" target="_blank"><img class="git" src="./imgs/github.png" alt="logo-tipo github"> Github</a></li>
-    <li><a href="https://www.linkedin.com/in/guilherme-augusto-4b5b19120/" target="_blank"><img class="linkedin" src="./imgs/linkedin.png" alt="logo-tipo linkedin"> linkedin</a></li>
-    <audio  src="./musica/X2Download.app - Synthwave goose - Blade Runner 2049 (192 kbps).mp3"></audio>
+    <li><a href="https://www.linkedin.com/in/guilherme-augusto-4b5b19120/" target="_blank"><img class="linkedin" src="./imgs/linkedin.png" alt="logo-tipo linkedin"> Linkedin</a></li>
+    <audio  src="./musica/SaveTube.io - Shinigami (128 kbps).mp3"></audio>
     <button class="botao"><em>Play</em></button>
 </ul>
 
@@ -33,10 +33,15 @@
 </div>
 
 <script>
+  
     const button = document.querySelector('button');
     button.addEventListener('click',function(){
     const audio= document.querySelector('audio')
-     audio.play();
+     audio.play();  
+    })
+    button.addEventListener('dblclick',function(){
+        const audio= document.querySelector('audio')
+         audio.pause()
     })
 </script>
 
