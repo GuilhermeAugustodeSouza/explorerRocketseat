@@ -26,6 +26,13 @@ body{
 img{
     width: 100%;
 }
+img:hover{
+    transform: rotate(360deg);
+    cursor: pointer;
+    width:135px;
+    height:120px;
+
+}
 p{
     font-family: 'Grenze Gotisch', cursive;
     
