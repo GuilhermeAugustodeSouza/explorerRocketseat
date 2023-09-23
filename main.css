@@ -169,7 +169,7 @@ footer a:hover{
 }
 @media(max-width:600px){
     body{
-        height:auto;
+        height:900;
     }
 }
 
