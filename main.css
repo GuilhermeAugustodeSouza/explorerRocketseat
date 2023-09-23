@@ -26,13 +26,7 @@ body{
 img{
     width: 100%;
 }
-img:hover{
-    transform: rotate(360deg);
-    cursor: pointer;
-    width:135px;
-    height:120px;
 
-}
 p{
     font-family: 'Grenze Gotisch', cursive;
     
@@ -59,6 +53,10 @@ padding: 3.7px;
 .avatar:hover{
    border:  solid rgba(233, 6, 6, 0.952);
    transition: 2.5s;
+    transform: rotate(360deg);
+    cursor: pointer;
+    width:135px;
+    height:120px;
 }
 
 h1{
@@ -70,21 +68,25 @@ margin-bottom: 8px;
 .face{
 width: 5%;
 margin: 0 5px;
+border-radius:4px;
 }
 
 .insta{
     width: 6%;
     margin: 0 5px;
+    border-radius:4px;
 }
 
 .git{
     width: 5%;
     margin: 0 5px;
+    border-radius:4px;
 }
 
 .linkedin{
    width: 6%;
    margin: 0 5px;
+border-radius:4px;
 }
 
 ul{
